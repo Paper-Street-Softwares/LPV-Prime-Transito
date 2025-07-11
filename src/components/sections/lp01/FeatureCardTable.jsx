@@ -27,7 +27,7 @@ export default function FeatureCardTable({
         <MotionDivDownToUp>
           <Button
             aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
-            label="Falar com Especialista"
+            label="Falar com especialista"
             animation
             textclassName=" text-xs"
             size="small"
