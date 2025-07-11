@@ -68,9 +68,9 @@ export default function Button({
             >
               {icon && <div className={`${buttonColor}`}>{icon}</div>}
               <p
-                className={`flex items-center ${textSizeClass} ${
+                className={`flex items-center ${
                   labelColor || buttonColor
-                } ${textclassName}`}
+                } ${textSizeClass} ${textclassName}`}
               >
                 {label}
               </p>
