@@ -10,16 +10,16 @@ export default function FeatureCardTable({
 }) {
   return (
     <MotionDivDownToUp
-      className={`bg-primary rounded-xl w-full flex flex-col max-w-[450px] tablet1:max-w-[300px] desktop1:max-w-[900px] desktop1:flex-row items-center desktop1:hover:scale-110 gap-2 py-[25px] desktop1:px-[8px] desktop1:py-[8px] h-auto shadow-[4px_5px_8px_rgba(0,0,0,0.50)] ${className}`}
+      className={`bg-primary rounded-xl w-full flex flex-col max-w-[450px] tablet1:max-w-[300px] desktop1:max-w-[900px] desktop1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-2 py-[25px] desktop1:px-[8px] desktop1:py-[8px] h-auto shadow-[4px_5px_8px_rgba(0,0,0,0.50)] ${className}`}
     >
-      <div className="h-[65px] w-[104px]  bg-black flex justify-center items-center text-white">
+      <div className="h-[75px] w-[104px]  bg-black flex justify-center items-center text-white">
         {icon}
       </div>
       <div className="flex flex-col w-[60%] ">
-        <h1 className="h-auto text-center desktop1:text-start leading-[28px] font-bold font-mainFont text-paragraph4 mb-[2px] text-secondary">
+        <h1 className="h-auto text-center desktop1:text-start leading-[20px] font-bold font-mainFont text-paragraph4 mb-[8px] desktop1:mb-0 text-secondary">
           {title}
         </h1>
-        <p className="text-center desktop1:text-start text-paragraph2 opacity-70 font-mainFont desktop1:w-[60%]">
+        <p className="text-center desktop1:text-start text-paragraph2 opacity-70 font-mainFont desktop1:w-[100%]">
           {description}
         </p>
       </div>

@@ -17,36 +17,42 @@ export default function FeaturesLP() {
             color=""
             titleColorSet="text-secondary"
           />
-          <div className="w-full flex flex-wrap desktop1:flex-col justify-center m-auto gap-y-[32px]">
+          <div className="w-full flex flex-wrap desktop1:flex-col justify-evenly m-auto gap-y-[32px]">
             <FeatureCardTable
               icon={contentLp01.features.cards.card1.icon}
               title={contentLp01.features.cards.card1.title}
               description={contentLp01.features.cards.card1.description}
-              className="m-auto w-full"
+              className="desktop1:m-auto w-full"
             />
             <FeatureCardTable
               icon={contentLp01.features.cards.card2.icon}
               title={contentLp01.features.cards.card2.title}
               description={contentLp01.features.cards.card2.description}
-              className="m-auto w-full"
+              className="desktop1:m-auto  w-full"
             />
             <FeatureCardTable
               icon={contentLp01.features.cards.card3.icon}
               title={contentLp01.features.cards.card3.title}
               description={contentLp01.features.cards.card3.description}
-              className="m-auto w-full"
+              className="desktop1:m-auto  w-full"
             />
             <FeatureCardTable
               icon={contentLp01.features.cards.card4.icon}
               title={contentLp01.features.cards.card4.title}
               description={contentLp01.features.cards.card4.description}
-              className="m-auto w-full"
+              className="desktop1:m-auto  w-full"
             />
             <FeatureCardTable
               icon={contentLp01.features.cards.card5.icon}
               title={contentLp01.features.cards.card5.title}
               description={contentLp01.features.cards.card5.description}
-              className="m-auto w-full"
+              className="desktop1:m-auto  w-full"
+            />
+            <FeatureCardTable
+              icon={contentLp01.features.cards.card6.icon}
+              title={contentLp01.features.cards.card6.title}
+              description={contentLp01.features.cards.card6.description}
+              className="desktop1:m-auto  w-full"
             />
           </div>
         </SectionWrapper>
