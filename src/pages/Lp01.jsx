@@ -15,6 +15,9 @@ import contentLp01 from "../content/contentLp01";
 import { useEffect } from "react";
 import StepsLpv from "../components/sections/lp01/StepsLpv";
 import Vídeo from "../components/sections/lp01/Vídeo";
+import Cta from "../components/sections/Cta";
+import CarouselDivsV1 from "../components/interactives/CarouselDivsV1";
+import Feedback from "../components/sections/Feedback";
 
 export default function Lp01() {
   useEffect(() => {
@@ -43,9 +46,11 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
+      <Cta />
       <FeaturesLP />
       <AboutParalaxeLP logo={true} />
       <WhyUs />
+      <Feedback />
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />

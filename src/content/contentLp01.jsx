@@ -44,15 +44,36 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Seus direitos <span className="text-lpTitle"> no trânsito</span>{" "}
-          <span className="text-lpTitle"> também merecem prioridade</span>
+          Recebeu uma <span className="text-lpTitle"> multa ou teve a CNH</span>{" "}
+          <span className="text-lpTitle"> suspensa?</span>
         </h1>
       ),
       subtitle:
-        "Multas indevidas, CNH suspensa, acidentes ou venda mal resolvida? Atuamos para proteger você em cada detalhe do caminho.",
-      buttonLabel: "Fale com um advogado especialista",
+        "A Prime Trânsito resolve isso para você — com mais de 25 anos de experiência em todo o Brasil.",
+      buttonLabel: "Solicitar Análise Gratuita Agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
+      obsHero: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-map-pin-check"
+          >
+            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
+            <circle cx="12" cy="10" r="3" />
+            <path d="m16 18 2 2 4-4" />
+          </svg>
+        ),
+        text: "Defesa Técnica, Jurídica e Rápida contra Multas, Suspensões e Cassações. Atendemos diretamente com os DETRANs, CETRANs e via judicial, se preciso.",
+      },
     },
   },
   features: {
@@ -268,17 +289,18 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no trânsito ao seu alcance!",
+      title: "Fale com a Prime Trânsito agora mesmo",
       subtitle: (
         <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
-          qualquer questão jurídica relacionada ao trânsito. Conte com uma
-          equipe especializada para proteger sua CNH, recorrer de multas e
-          garantir seus direitos com segurança e agilidade.
+          Envie seus dados e receba uma análise sem compromisso:
+          <br />
+          <br />- Nome
+          <br />- WhatsApp
+          <br />- Placa do veículo ou nº do processo
         </p>
       ),
     },
-    buttonLabel: "Vamos resolver seu problema",
+    buttonLabel: "Falar com um Especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {

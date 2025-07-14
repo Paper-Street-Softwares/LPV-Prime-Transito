@@ -8,7 +8,7 @@ export default function CarouselDivsV1({ children }) {
       breakpoint: "2500px",
       numVisible: 2,
       numScroll: 2,
-    }, // organiza em 4 por clique e passa os 4 de uma só vez
+    },
     {
       breakpoint: "1199px",
       numVisible: 2,
@@ -37,17 +37,17 @@ export default function CarouselDivsV1({ children }) {
   return (
     <div className="">
       <Carousel
-        value={children}
+        value={React.Children.toArray(children)}
         numVisible={1}
         numScroll={1}
         responsiveOptions={responsiveOptions}
         className="text-colorWhite"
         circular
-        autoplayInterval={8000}
+        autoplayInterval={4000}
         itemTemplate={itemTemplate}
         showNavigators={true}
-        prevIcon={<span style={{ color: "white", fontSize: "200%" }}>❮</span>}
-        nextIcon={<span style={{ color: "white", fontSize: "200%" }}>❯</span>}
+        prevIcon={<span style={{ color: "#FDCC03", fontSize: "200%" }}>❮</span>}
+        nextIcon={<span style={{ color: "#FDCC03", fontSize: "200%" }}>❯</span>}
       />
     </div>
   );
