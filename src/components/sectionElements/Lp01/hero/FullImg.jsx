@@ -168,8 +168,10 @@ function FullImg({ obs }) {
                         <MotionDivDownToUp>
                           <div className="flex justify-center mt-12 desktop1:justify-start">
                             <div className="flex flex-col items-center desktop1:flex-row text-primary">
-                              {contentLp01.hero.textArea.obsHero.icon}
-                              <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                              <span>
+                                {contentLp01.hero.textArea.obsHero.icon}
+                              </span>
+                              <p className="text-white  ml-[10px] text-start mt-[12px] desktop1:mt-0">
                                 {contentLp01.hero.textArea.obsHero.text}{" "}
                               </p>
                             </div>
