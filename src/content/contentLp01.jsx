@@ -289,17 +289,18 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no trânsito ao seu alcance!",
+      title: "Fale com a Prime Trânsito agora mesmo",
       subtitle: (
         <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
-          qualquer questão jurídica relacionada ao trânsito. Conte com uma
-          equipe especializada para proteger sua CNH, recorrer de multas e
-          garantir seus direitos com segurança e agilidade.
+          Envie seus dados e receba uma análise sem compromisso:
+          <br />
+          <br />- Nome
+          <br />- WhatsApp
+          <br />- Placa do veículo ou nº do processo
         </p>
       ),
     },
-    buttonLabel: "Vamos resolver seu problema",
+    buttonLabel: "Falar com um Especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
