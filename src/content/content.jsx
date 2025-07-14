@@ -413,12 +413,12 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
+      miniTag: "NÃO IGNORE ESSA NOTIFICAÇÃO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "A maioria dos motoristas perde o direito de dirigir por falta de orientação correta ou defesas mal elaboradas.",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+        "Atuamos com base no Código de Trânsito Brasileiro, nas Resoluções do CONTRAN e em jurisprudência atualizada.",
+      ctaButtonText: "Se dá para anular, a Prime Trânsito vai anular",
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
